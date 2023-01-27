@@ -87,6 +87,12 @@ private fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifi
             AffirmationCard(affirmation)
         }
     }
+
+//    Column{
+//        affirmationList.forEach {affirmation ->
+//            AffirmationCard(affirmation = affirmation)
+//        }
+//    }
 }
 
 @Preview
